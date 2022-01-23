@@ -1,4 +1,4 @@
 node_modules
 
-build
-public/index.js
+/build
+/public/index.js
