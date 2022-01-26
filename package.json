@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all --parallel dev:**",
-    "dev:start": "nodemon -w build --exec node \"build/bundle.js\"",
     "dev:build": "webpack --config webpack/webpack.server.js --watch",
-    "dev:client": "webpack --config webpack/webpack.client.js --watch"
+    "dev:client": "webpack --config webpack/webpack.client.js --watch",
+    "dev:start": "nodemon -w build --exec node \"build/bundle.js\""
   },
   "keywords": [],
   "author": "",
